@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            background: black;
+            color: #fff !important;
+            padding: 50px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <form>
+
+            <header>
+                <img src="https://placehold.co/80.png?text={vv}" />
+                <h1 style="color: white">Crea una cuenta</h1>
+                <h5 style="color: white">Ingresa la siguiente información para registrarte</h5>
+            </header>
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Nombres
+                        <input type="text" placeholder="Gilmar" required>
+                    </label>
+                </div>
+                <div>
+                    <label style="color: white">
+                        Apellidos
+                        <input type="text" placeholder="Campana Quispe" required>
+                    </label>
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Edad
+                        <input type="text" placeholder="Ej. 30" required>
+                    </label>
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Fecha de Nacimiento
+                        <input type="date" placeholder="mm/dd/yy" required>
+                    </label>
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Genero
+                        <select>
+                            <option value="*">Seleccione tu genero</option>
+                            <option value="H">Hombre</option>
+                            <option value="M">Mujer</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Correo
+                        <input type="email" placeholder="correo@gmail.com" required>
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Dirección
+                        <input type="text" placeholder="Dirección" required>
+                        <br/>
+                        <input type="text" placeholder="Dirección línea 2">
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Teléfono
+                        <input type="text" placeholder="Número de teléfono" required>
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Código Postal
+                        <input type="text" placeholder="Ej. 14001" required>
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Ciudad
+                        <input type="text" placeholder="Ej. Chiclayo" required>
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <label style="color: white">
+                        Subir firma
+                        <input type="file" required>
+                    </label>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <input type="checkbox" name="remember" required minlength="6"/>
+                    Acepto los términos, condiciones y políticas.
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <input type="submit" value="Registrarse">
+                </div>
+            </div>
+
+            <div class="grid">
+                <div>
+                    <p>
+                        Ya tienes una cuenta? <a href="register.html">Accede desde aquí</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
